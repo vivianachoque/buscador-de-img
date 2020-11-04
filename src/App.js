@@ -1,4 +1,5 @@
-import Buscador from "./componentes/Buscador";
+import React from 'react';
+import Buscador from './componentes/Buscador';
 
 function App() {
   return (
