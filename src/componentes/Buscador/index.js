@@ -14,8 +14,6 @@ class Buscador extends Component {
     return (
       <form onSubmit={this.obtenerDatos}>
         <div className="row">
-            {this.props.mensaje} 
-            /* 23:26 yt */
           <div className="form-group col-md-8">
             <input ref={this.busquedaRef}
               type="text"

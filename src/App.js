@@ -1,11 +1,13 @@
 import React from 'react';
 import Buscador from './componentes/Buscador';
 
+class App extends Component {
+
 datosBusqueda = (termino) => {
     console.log(termino);
 }
 
-function App() {
+render () {
   return (
     <div className="app container">
       <div className="jumbotron">
@@ -15,7 +17,8 @@ function App() {
          />
       </div>
     </div>
-  );
+     );
+  }
 }
 
 export default App;
